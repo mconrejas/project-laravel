@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\TodoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,13 @@ Route::get('/', function () {
 });
 
 Route::get('about', [TestController::class, 'show']);
+
+Route::post('', []);
+
+Route::controller(TodoController::class)->name('todo.')->group(function () {
+    Route::get('', 'index')->name('index');
+    Route::get('{id}', 'show')->name('show');
+    Route::post('', 'store')->name('store');
+    Route::put('{id}', 'update')->name('update');
+    Route::delete('{id}', 'delete')->name('delete');
+});

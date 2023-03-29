@@ -4,112 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo List</title>
+    <title>To-Do List</title>
 </head>
 <body>
-    <h1>ToDo List</h1>
+    <h1>To-Do List</h1>
 
 
-        <input type="text">
-        
+    <p style="font-family:courier;"></p>   
+        <form action="/action_page.php">
+  <input  placeholder="Add or Remove Task Here"><br><br>
 
 
         <button>add task</button>  
 
         <button>remove task</button>
 
- <p>Monday </p>
+ <p><form action="/action_page.php">
+    <input type="checkbox" id="workout">
+    </label>Monday </p>
 
 <form action="/action_page.php">
-    <input type="checkbox" id="workout" name="vehicle1" value="bike">
-    <label for="vehicle1"> workout</label><br>
+    <input type="checkbox"name="workout">
+    <label for="task"> 6-7:30 AM Workout.</label><br>
 
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> do house chores</label><br>
+    <input type="checkbox"name="task">
+    <label for="task"> 8-10 AM Do the house chores.</label><br>
 
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> feeding pets</label><br><br>
+    <input type="checkbox"name="task">
+    <label for="task"> 11 AM Feed the Pets.</label><br><br>
 
 </form>     
 
-<p>Tuesday </p>
+<p><form action="/action_page.php">
+    <input type="checkbox" id="workout">
+    </label>Tuesday </p>
+
 <form action="/action_page.php">
-    <input type="checkbox" id="workout" name="vehicle1" value="bike">
-    <label for="vehicle1"> meeting with client</label><br>
+    <input type="checkbox"name="workout">
+    <label for="task"> 9:30 AM meeting with client.</label><br>
 
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> lunch with friends</label><br>
+    <input type="checkbox"name="task">
+    <label for="task"> 12 PM Lunch with friends.</label><br>
 
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> online meeting</label><br><br>
+    <input type="checkbox"name="task">
+    <label for="task"> 3 PM online meeting</label><br><br>
 
 </form>     
 
-<p>Wednesday </p>
+<p><form action="/action_page.php">
+    <input type="checkbox" id="workout">
+    </label>Wednesday </p>
+
 <form action="/action_page.php">
-    <input type="checkbox" id="workout" name="vehicle1" value="bike">
-    <label for="vehicle1"> workout</label><br>
+    <input type="checkbox"name="workout">
+    <label for="task"> workout
 
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> do house chores</label><br>
+    </label><br>
 
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> feeding pets</label><br><br>
+    <input type="checkbox"name="task">
+    <label for="task"> do house chores</label><br>
+
+    <input type="checkbox"name="task">
+    <label for="task"> feeding pets</label><br><br>
+
+</form>   
+
+<p><form action="/action_page.php">
+    <input type="checkbox" id="workout">
+    </label>Thursday </p>
+
+<form action="/action_page.php">
+    <input type="checkbox"name="workout">
+    <label for="task"> workout</label><br>
+
+    <input type="checkbox"name="task">
+    <label for="task"> do house chores</label><br>
+
+    <input type="checkbox"name="task">
+    <label for="task"> feeding pets</label><br><br>
 
 </form>
 
-<p>Thursday </p>
+<p><form action="/action_page.php">
+    <input type="checkbox" id="workout">
+    </label>Friday </p>
+
 <form action="/action_page.php">
-    <input type="checkbox" id="workout" name="vehicle1" value="bike">
-    <label for="vehicle1"> workout</label><br>
+    <input type="checkbox"name="workout">
+    <label for="task"> workout</label><br>
 
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> do house chores</label><br>
+    <input type="checkbox"name="task">
+    <label for="task"> do house chores</label><br>
 
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> feeding pets</label><br><br>
+    <input type="checkbox"name="task">
+    <label for="task"> feeding pets</label><br><br>
 
 </form>
 
-<p>Friday </p>
+<p><form action="/action_page.php">
+    <input type="checkbox" id="workout">
+    </label>Saturday </p>
+
 <form action="/action_page.php">
-    <input type="checkbox" id="workout" name="vehicle1" value="bike">
-    <label for="vehicle1"> workout</label><br>
+    <input type="checkbox"name="workout">
+    <label for="task"> workout</label><br>
 
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> do house chores</label><br>
+    <input type="checkbox"name="task">
+    <label for="task"> do house chores</label><br>
 
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> feeding pets</label><br><br>
+    <input type="checkbox"name="task">
+    <label for="task"> feeding pets</label><br><br>
 
 </form>
 
-<p>Saturday </p>
+<p><form action="/action_page.php">
+    <input type="checkbox" id="workout">
+    </label>Sunday </p>
+
 <form action="/action_page.php">
-    <input type="checkbox" id="workout" name="vehicle1" value="bike">
-    <label for="vehicle1"> workout</label><br>
+    <input type="checkbox"name="workout">
+    <label for="task"> workout</label><br>
 
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> do house chores</label><br>
+    <input type="checkbox"name="task">
+    <label for="task"> do house chores</label><br>
 
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> feeding pets</label><br><br>
+    <input type="checkbox"name="task">
+    <label for="task"> feeding pets</label><br><br>
 
-</form>
 
-<p>Sunday </p>
-<form action="/action_page.php">
-    <input type="checkbox" id="workout" name="vehicle1" value="bike">
-    <label for="vehicle1"> workout</label><br>
-
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> do house chores</label><br>
-
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> feeding pets</label><br><br>
+<p style="font-family:courier;"></p>   
+<style>
+body {
+  background-color: darkgray;
+}
+</style>
 
 </form>     
-    
 </body>
 </html>
+
 

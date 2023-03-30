@@ -7,6 +7,7 @@ use App\Models\Todo;
 
 class TodoController extends Controller
 {
+    
     public function index(Request $request)
     {
         try {
@@ -36,9 +37,9 @@ class TodoController extends Controller
     {
         try {
             $todo = new Todo;
-            $todo->find($id);
+            
 
-            return response(['data' => $todo->get()]);
+            return view('edit-todo', ['todo' => $todo->find($id)]);
         } catch (\Throwable $th) {
             throw $th;
         }
@@ -62,7 +63,8 @@ class TodoController extends Controller
     {
         try {
             $todo = new Todo();
-            $todo->delete($id);
+            $todo ->find($id);
+
 
             return response('Deleted successfully.');
         } catch (\Throwable $th) {

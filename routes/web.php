@@ -30,4 +30,5 @@ Route::controller(TodoController::class)->name('todo.')->group(function () {
     Route::post('', 'store')->name('store');
     Route::put('{id}', 'update')->name('update');
     Route::delete('{id}', 'delete')->name('delete');
+    
 });

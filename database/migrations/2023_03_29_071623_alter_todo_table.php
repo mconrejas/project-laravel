@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::table('todos', function (Blueprint $table) {
             $table->string('todo');
+            $table->id();
+            $table->string('name_task');
+            $table->string('day');
+            $table->timestamps();
         });
     }
 

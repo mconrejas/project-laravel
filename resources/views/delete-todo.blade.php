@@ -7,17 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="POST" action="{{ route('todo.update', ['id' => $todo->id]) }}">
-        @csrf
     
-        <input type="hidden" name="_method" value="PUT">
-        <input type="text" name="todo" value="{{ $todo->todo }}">
-        <label for="task">Task Name</label><br>
-
-        <button>Update</button>
-    </form>
-
-<form method="POST" action="{{ route('todo.delete', ['id' => $todo->id]) }}">
+<form method="POST" action="{{ route('todo-delete', ['id' => $todo->id]) }}">
         @csrf
     
         <input type="hidden" name="_method" value="DELETE">
@@ -25,7 +16,7 @@
         <label for="task">Task Name</label><br>
 
         <button>Delete</button>
+</form>
 
-    </form>
 </body>
 </html>

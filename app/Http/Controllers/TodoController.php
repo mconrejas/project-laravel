@@ -37,6 +37,7 @@ class TodoController extends Controller
     {
         try {
             $todo = new Todo;
+               
             
 
             return view('edit-todo', ['todo' => $todo->find($id)]);
@@ -63,12 +64,15 @@ class TodoController extends Controller
     {
         try {
             $todo = new Todo();
-            $todo ->find($id);
-
-
+            $todo ->delete($id);
+         
+            
             return response('Deleted successfully.');
         } catch (\Throwable $th) {
             throw $th;
         }
     }
 }
+
+
+
